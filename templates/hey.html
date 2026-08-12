@@ -1,5 +1,19 @@
+{% extends 'base.html' %}
+
+{% block montitre %}
+debut de mes mots: bienvenue dans magasin souvenirs
+{% endblock %}
+{% block content %}
 <h1># hidden-gem</h1>
-<img src="/static/collage.png"/>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NYfEgoAh1jg?si=kaa1NrF1bQmx4wMl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+{% for x in users | reverse %}
+ <li>{{ x["first_name"]  }}</li>
 
-
+{% endfor %} 
+fin de mes mots : off the beaten track : photo of someone having an experience with sports, or an activity in a gem /natural /famous place.
+gem place, photo of a beautiful /place, classed like gem place.
+Page photos souvenir de la ville .
+{% endblock %}
+{% block liens %}
+<a href="/">welcome</a>
+{% endblock %}
+<a href="/add_one_user"> add one user</a><a href="/add_one_country"> add one country</a><a href="/add_one_city"> add one city</a><a href="/add_one_off_the_beaten_track_photos"> add one off_the_beaten_track_photos</a><a href="/add_one_gem_place_photos"> add one gem_place_photos</a><a href="/add_one_local_souvenir"> add one local_souvenir</a>
