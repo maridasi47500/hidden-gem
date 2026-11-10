@@ -63,3 +63,7 @@ Enferme-moi dans ton cœur, je jetterai la clé
 Je te connais, je sais, quand tu mens, c'est que tu ressens
 Toi et moi, on est
 Aimés, oh-oh-oh-oh
+
+
+- succomber c'est seulement le début
+- et pour voir il faudra attendre plus de temps mais voir ne peut pas se voir dans une destination touristique ou un simple baiser, il faut attendre longtemps voire beaucoup d'années 
